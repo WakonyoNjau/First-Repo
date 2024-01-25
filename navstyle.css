@@ -1,0 +1,195 @@
+.banner{
+    background-color: peru;
+border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 100%;
+}
+.body{
+   background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.banner h1{
+    font-family: Harrington;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.banner input{
+    width: 70%;
+    position: relative;
+    margin: 10px 20PX;
+    height: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: -5px;
+}
+.button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.button button {
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    background: blueviolet;
+    border-radius: 5px;
+    /*font-family: "Arial Narrow";*/
+}
+*{
+    margin: 0;
+    padding: 0;
+   font-family: "Arial Black";
+    color: chocolate;
+
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    /*background-color:chocolate;*/
+    background-size: cover;
+    background-position: center;
+    /*background-image: url("Screenshot from 2024-01-10 02-22-34.png");*/
+    background-color: beige;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Candara;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+ font-family: Arial;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-top: 9px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+}
+.cn :hover{
+    background-color: white;
+    color: white;
+}
+.content span{
+    color: black;
+    font-size: 60px;
+}
+.Form{
+    width: 250px;
+    height: 300px;
+    background-color: coral;
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.Form h2{
+    width: 200px;
+    font-family: "Myanmar Text";
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 6px;
+
+}
+.Form input{
+    width: 200px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+}
+.Form input:focus{
+    outline: white;
+}
+::placeholder{
+    color: white;
+    font-family: "Bauhaus 93";
+}
+.btn{
+    width: 240px;
+    height: 20px;
+    background: wheat;
+    border: none;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
+.btn a{
+    text-decoration: none;
+    color:darkkhaki;
+    font-weight: bold;
+}
+.Form .link{
+   font-family: Arial;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+.Form .link a{
+    text-decoration: none;
+    color: black;
+}

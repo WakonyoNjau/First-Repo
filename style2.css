@@ -1,0 +1,46 @@
+.banner{
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 40vh;
+    align-items: center;
+    /*align-content: center;*/
+    padding: 10px;
+}
+.banner h1{
+    text-align: center;
+    font-family: "Myanmar Text";
+    font-size: 16px;
+    font-family: "Myanmar Text";
+
+}
+.banner input{
+position: relative;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+
+}
+.banner button{
+    padding: 10px 20px;
+    color: brown;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.button button{
+    padding: 10px 20px;
+    align-content: center;
+    border-radius: 5px;
+}
+.body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+
+}
